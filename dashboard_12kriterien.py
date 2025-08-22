@@ -10,7 +10,7 @@ import os
 # ==============================
 UPDATE_INTERVAL = 5  # Sekunden
 MAX_HISTORY = 200    # Anzahl gespeicherter Historienpunkte
-HISTORY_FILE = os.path.join(os.path.expanduser("~"), "Desktop", "dashboard_history.csv")
+HISTORY_FILE = "dashboard_history.csv"  # <-- Fix für Streamlit Cloud
 
 KRITERIEN = {
     "Marktplatzierung": "Rank",
